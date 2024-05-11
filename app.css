@@ -1,0 +1,35 @@
+.gothic-a1-regular {
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body{
+    background-color: #75d075;
+    font-family: "Gothic A1", sans-serif;
+
+    
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+main{
+    text-align: center;
+    padding: 0 20px 0 20px;
+    line-height: 20px;
+}
+main h2{
+    color: aqua;
+    text-shadow: black 2px 2px 4px;
+}
+main p{
+    font-weight: 600;
+
+}
+@media screen and (max-width: 400px){
+    h2{
+        font-size: 1.1rem;
+    }
+}
